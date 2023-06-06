@@ -1,0 +1,300 @@
+html{
+  font-family: "inter";
+  background:#101010;
+}
+body{
+  margin:0;
+  padding: 0;
+  flex-wrap: wrap;
+  position: relative;
+}
+main{
+  margin: 5% 0 10% 0;
+  width: 100%;
+  height: 80%;
+  display: flex;
+}
+header{
+  width: 100% ;
+  height: 8%;
+  display: flex;
+}
+.logo{
+  margin-top: 3%;
+}
+.alura-encriptador{
+  margin-top: 3%;
+  margin-left: 3%;
+  font-size: 3em;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.caja1{
+margin-left: 20%;
+}
+#texto{
+  background: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: wheat;
+  text-transform: lowercase;
+  border: none;
+}
+#texto::placeholder{
+  font-size: 22px;
+  color: wheat;
+}
+#texto:focus, #texto:active{
+  outline: none;
+  border: none;
+}
+.informacion{
+  margin-top: 23%;
+  margin-left: 90px;
+
+}
+h6{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: wheat;
+}
+.boton{
+  display: flex;
+  position: relative;
+  margin: 4% 10% 5% 20%;
+}
+.Encriptar{
+  margin-right:20%;
+  padding: 7% 28%;
+  border: 2px solid #0a3871;
+  border-radius: 15px;
+  font-size: 1.5em;
+  background: black;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.Encriptar:hover{
+  font-size: 1.6em;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(45deg, wheat, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.Desencriptar{
+  margin-right: 3%;
+  padding: 7% 19.4%;
+  border: 2px solid #0a3871;
+  border-radius: 15px;
+  font-size: 1.5em;
+  background: black;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.Desencriptar:hover{
+  font-size: 1.6em;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(45deg, wheat, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.seccion2{
+  width: 100%;
+  display: flex;
+}
+.mensaje{
+  margin-left: 35%;
+}
+.rectangulo{
+  position: relative;
+  margin-left: 80px;
+  width: 400px;
+  height: 600px;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 22px;
+  color: wheat;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+}
+.rectangulo:focus, .Texto:active{
+  outline: none;
+  border: none;
+}
+.boton-copiar{
+  position: absolute;
+  margin-top: 615px;
+  margin-left: 490px;
+}
+.Copiar{
+  padding: 25px 60px;
+  border: 2px solid #0a3871;
+  border-radius: 15px;
+  font-size: 1.5em;
+  background: black;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;  
+}
+.Copiar:hover{
+  font-size: 1.6em;
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(45deg, wheat, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.adicional{
+  position: absolute;
+  margin-top: 80px;
+  margin-left:430px;
+}
+
+#a{
+  margin-bottom: 2%;
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:wheat;
+}
+#parrafo{
+  width: 80%;
+  margin-bottom: 2%;
+  margin-top: 7%;
+  font-weight: bold;
+  font-size: 1.5em;
+  color:wheat;
+}
+
+footer{
+  display: flex;
+  position: relative;
+  align-self: flex-end;
+  width: 100%;
+  height: 60px;
+}
+.piede-pagina{
+  margin-top: 20px;
+  margin-left: 45%;
+  background: black;
+  background: linear-gradient(45deg, turquoise, #0a3871);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@media screen and (max-width: 796px) {
+body, header, section, div, footer{
+  width: 100%;
+  position: relative;
+  padding: 0;
+}
+
+main{
+  width: 100%;
+  flex-direction: column;
+}
+header{
+  width: 80%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+}
+.logo{
+  position: relative;
+  width: 30%;
+  margin: 10px 10px;
+  padding: 0;
+}
+.alura-encriptador{
+  width: 100%;
+  margin-top: 0 auto;
+  padding: 0;
+}
+.caja1{
+  width: 80%;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
+}
+.Texto{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.informacion{
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+h6{
+  width: 80%;
+  font-size: 1.5em;
+  margin: 0 15px;
+  padding: 0;
+}
+.boton{
+  width: 80%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.Encriptar{
+ width: 80%;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 10px 22px;
+}
+.Desencriptar{
+  width: 80%;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 10px 14px;
+}
+.Encriptar:hover{
+  font-size: 1.1em;
+}
+.Desencriptar:hover{
+  font-size: 1.1em;
+}
+.mensaje{
+  width: 80%;
+  position: absolute;
+  padding: 0;
+  margin: 0 10px;
+}
+.rectangulo{
+  height: auto;
+  width: 90%;
+  height: auto;
+  margin: 10px auto;
+  padding: 0;
+}
+.boton-copiar{
+  position: absolute;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+.Copiar{
+  position: relative;
+  width: 100%;
+  margin: 271px auto;
+  padding: 2px 5px;
+}
+.adicional{
+  display: none;
+}
+footer{
+display: none;
+}
+
+
+}
